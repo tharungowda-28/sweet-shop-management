@@ -68,6 +68,7 @@ class SweetViewSet(viewsets.ModelViewSet):
         # permission handled by get_permissions -> admin only
         sweet = get_object_or_404(Sweet, pk=pk)
         amount = request.data.get("amount")
+        quantity = request.data.get('quantity')
         try:
             amount = int(amount)
             if amount <= 0:
