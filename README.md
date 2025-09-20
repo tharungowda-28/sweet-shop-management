@@ -136,3 +136,49 @@ This project was assisted by **ChatGPT** in the following ways:
 - **Documentation:** Assisted in writing this README.md, setup instructions, and instructions for tests.
 
 > Note: AI was used as a coding assistant. All business logic and final implementation were verified and customized manually.
+
+
+
+During the development of the Sweet Shop Management System, I leveraged AI tools to enhance productivity, brainstorm solutions, and assist with boilerplate code generation. Below is a detailed account of how AI contributed to this project:
+
+### AI Tools Used
+- **ChatGPT (OpenAI)** – Primary tool for generating code snippets, solving errors, and providing explanations.
+- **GitHub Copilot** – Assisted in autocompleting repetitive code, writing test cases, and generating React components.
+
+### How AI Was Used
+1. **Backend Development**
+   - Generated initial boilerplate for Django REST Framework views, serializers, and JWT authentication.
+   - Assisted in writing CRUD API endpoints for sweets, including purchase and restock logic.
+   - Suggested test cases for all backend functionality following Test-Driven Development (TDD) practices.
+   - Provided guidance on implementing role-based access for normal users vs. admin.
+
+2. **Frontend Development**
+   - Helped generate React components, including Login, Register, Dashboard, and Admin Panel.
+   - Provided examples for integrating Axios with JWT authentication and handling API calls.
+   - Assisted in implementing search/filter functionality and role-based redirects.
+   - Suggested best practices for UI/UX, including responsive layouts with Tailwind CSS, error handling, and loading states.
+
+3. **Debugging & Problem Solving**
+   - Guided through resolving runtime errors (e.g., “Cannot read properties of undefined”) and common React state issues.
+   - Suggested improvements to component structure and data flow to enhance maintainability.
+
+4. **Documentation & README**
+   - Assisted in drafting setup instructions for backend and frontend.
+   - Provided structured format for README.md, including screenshots and AI usage sections.
+   - Suggested wording for feature descriptions, tech stack, and procedural instructions.
+
+### Reflection on AI Impact
+Using AI tools significantly accelerated development and reduced repetitive manual work. Key benefits included:
+- **Speed:** Rapid generation of boilerplate code allowed me to focus on implementing business logic and testing.
+- **Learning Aid:** AI explanations helped me understand best practices for TDD, REST API design, and React state management.
+- **Error Mitigation:** AI suggested potential fixes for runtime errors and guided debugging, reducing time spent troubleshooting.
+- **Creativity & Structure:** Provided ideas for component structure, UI layouts, and organized README content.
+
+**Note:** While AI contributed to code generation and guidance, all final implementations, business logic, and testing decisions were carefully reviewed and manually refined to ensure correctness and maintainability. AI was used as an assistant, not a replacement for my work.
+
+
+
+## License
+This project is licensed under the MIT License - see LICENSE file for details.
+
+
